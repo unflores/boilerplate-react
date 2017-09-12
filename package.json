@@ -1,0 +1,16 @@
+{
+  "name": "react_router",
+  "version": "1.0.0",
+  "description": "Testing the v4 react router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/webpack -d --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "webpack": "^3.5.6"
+  }
+}
