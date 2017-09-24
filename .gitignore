@@ -6,4 +6,6 @@ front/assets/css/*
 !**/.keepme
 
 node_modules
+# Don't need to see yarn's problems in my repo
+yarn-error.log
 
