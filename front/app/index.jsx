@@ -1,6 +1,19 @@
 import React from 'react'
-import { render } from 'react-dom'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Header from './Header'
+import Main from './Main'
 
-const App = () => (<h1>Boilerplate app!</h1>)
+const App = () => (
+  <div>
+    <Header />
+    <Main />
+    <h1>Boilerplate app!</h1>
+  </div>
+)
 
-render(<App/>, document.getElementById('app'))
+ReactDOM.render(
+<Router>
+  <App/>
+</Router>
+, document.getElementById('app'))
