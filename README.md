@@ -6,7 +6,9 @@ I kept building small react apps so this is everything I need to jump into react
 
 ```
   # Install yarn for package managing
-  npm install yarn
+  npm install -g yarn
+  # Install nodemon for dev server
+  npm install -g nodemon
   # Install the packages
   yarn install
   # Watch for file changes
